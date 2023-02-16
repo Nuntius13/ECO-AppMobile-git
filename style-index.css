@@ -11,14 +11,7 @@
   height: 140vw;
   display: block;
   border-radius: 1px;
-  
-  /* border-radius: 0px;
-background: #e0e0e0;
-box-shadow:  5px 5px 10px #5a5a5a,
-             -5px -5px 10px #ffffff; */
-  /* background: #e0e0e0;
-  box-shadow: inset 5px 5px 4px #5a5a5a,
-    inset -5px -5px 4px #ffffff; */
+
 }
 
 .destaques {
@@ -31,13 +24,9 @@ box-shadow:  5px 5px 10px #5a5a5a,
 
 
   border-radius: 15px;
-background: #e0e0e0;
-box-shadow:  5px 5px 10px #5a5a5a,
-             -5px -5px 10px #ffffff;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #5a5a5a,
+    -5px -5px 10px #ffffff;
 
-/* 
-  border-radius: 15px;
-background: #e0e0e0;
-box-shadow: inset 5px 5px 10px #5a5a5a,
-            inset -5px -5px 10px #ffffff; */
+
 }

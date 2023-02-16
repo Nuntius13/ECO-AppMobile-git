@@ -37,14 +37,14 @@ ul {
   background: #23232e;
   margin-left: 0;
   padding-left: 15vw;
-  border-radius: 0px;
+
   background: linear-gradient(145deg, #202029, #252531);
   box-shadow: 5px 5px 10px #0e0e12,
     -5px -5px 10px #38384a;
 }
 
 .items_superior {
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
   align-items: center;
 }
@@ -61,8 +61,8 @@ ul {
   margin-top: 5px;
   margin-left: 5px;
   position: fixed;
-  height: 8vh;
-  width: 8vh;
+  height: 8vw;
+  width: 8vw;
   border-radius: 100%;
   transition: 0.5ms;
 }
@@ -89,9 +89,6 @@ ul {
 
 .lista {
   border-radius: 0px;
-  background: #23232e;
-  box-shadow: inset 5px 5px 10px #0e0e12,
-    inset -5px -5px 10px #38384a;
 }
 
 /* item do menu */
@@ -197,13 +194,11 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   background: #23232e;
   border-radius: 0px;
-  background: linear-gradient(145deg, #202029, #252531);
-  box-shadow: 5px 5px 10px #0e0e12,
-    -5px -5px 10px #38384a;
+
 }
 
 .items_inferior {
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
   align-items: center;
 }
