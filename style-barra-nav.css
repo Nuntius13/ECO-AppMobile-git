@@ -1,23 +1,205 @@
-*{
-  margin: 0 !important;
-  padding: 0 !important;
+/* DOCUMENTO STYLE CSS NAVEGAÇÃO DO MENU  */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-body{
-  background-color: #ffa2a2 !important;
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+  background-color: whitesmoke;
 }
 
-.barra-inferior{
-  width: 100vw;
-  height: 8vh;
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol,
+ul {
+  padding-left: 2rem;
+}
+
+/* ######################  BARRA SUPERIOR  ######################  */
+/* barra de menu */
+.nav_menu_superior {
   position: fixed;
+  z-index: 9999999;
+}
+
+.items_superior {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #23232e;
+  margin-left: 0;
+  padding-left: 15vw;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #202029, #252531);
+  box-shadow:  5px 5px 10px #0e0e12,
+               -5px -5px 10px #38384a;
+}
+
+.items_superior {
+  height: 10vh;
+  width: 100vw;
+  align-items: center;
+}
+
+/* logo */
+.logo_da_pagina {
+  background-image: url(img/logo_trp.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo_da_pagina {
+  margin-top: 5px;
+  margin-left: 5px;
+  position: fixed;
+  height: 8vh;
+  width: 8vh;
+  border-radius: 100%;
+  transition: 0.5ms;
+}
+
+.logo_da_pagina:hover {
+  opacity: 0.9;
+}
+
+.item_lista:hover {
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+.lista {
+  position: absolute;
+  top: 10vh;
+  right: 0;
+  width: 80vw;
+  height: 92vh;
+  background-color: #23232e;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease-in;
+  justify-content: space-around;
+  transform: translateX(100%);
+}
+
+/* item do menu */
+.lista {
+  list-style: none;
+  display: flex;
+}
+
+.lista li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.lista a {
+  color: aliceblue;
+  list-style: none;
+  text-decoration: none;
+}
+
+.lista2 {
+  list-style: none;
+  display: flex;
+}
+
+.lista2 li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.lista2 a {
+  color: aliceblue;
+  list-style: none;
+  text-decoration: none;
+}
+
+.item_lista {
+  padding: 2vh;
+  justify-content: space-around;
+  transition: 0.5ms;
+  /* debug */
+  /* background-color: red; */
+}
+
+.item_lista:hover {
+  opacity: 0.8;
+  scale: 1.1;
+}
+
+.lista1 {
+  display: none;
+}
+
+.lista.active {
+  transform: translateX(0);
+}
+
+.lista li {
+  margin-left: 0;
+}
+
+.lista1 {
+  display: block;
+}
+
+.lista2 {
+  display: none;
+}
+
+.menu_mobile {
+  display: block;
+  cursor: pointer;
+  margin-left: 70vw;
+  align-items: flex-end;
+}
+
+/*  menu responsivo */
+.menu_mobile div {
+  width: 32px;
+  height: 2px;
+  background: aliceblue;
+  margin: 8px;
+  margin-bottom: 5px;
+}
+
+.alinha {
+  height: 10vh;
+  width: 100vw;
+}
+
+/* ###################### FIM BARRA SUPERIOR FIM ######################  */
+
+/* ######################  BARRA INFERIOR  ######################  */
+.nav_menu_inferio {
   bottom: 0;
-  background-color: #004712;
+  position: fixed !important;
+  z-index: 9999999;
 }
-.barra-superior{
+
+.items_inferior {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #23232e;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #202029, #252531);
+  box-shadow:  5px 5px 10px #0e0e12,
+               -5px -5px 10px #38384a;
+}
+
+.items_inferior {
+  height: 10vh;
   width: 100vw;
-  height: 8vh;
-  position: fixed;
-  top: 0;
-  background-color: #004712;
+  align-items: center;
 }
+
+/* ###################### FIM BARRA INFERIOR FIM ######################  */
