@@ -1,0 +1,23 @@
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body{
+  background-color: #baffa2 !important;
+}
+
+.barra-inferior{
+  width: 100vw;
+  height: 8vh;
+  position: fixed;
+  bottom: 0;
+  background-color: #004712;
+}
+.barra-superior{
+  width: 100vw;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  background-color: #004712;
+}
